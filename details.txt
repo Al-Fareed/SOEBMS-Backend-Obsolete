@@ -1,0 +1,3 @@
+npm install mongodb
+
+mongodb+srv://AlFareed:Pcja74isSJiS9G2Y@cluster0.bew3atd.mongodb.net/?retryWrites=true&w=majority
