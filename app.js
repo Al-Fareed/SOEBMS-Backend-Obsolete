@@ -1,10 +1,10 @@
 const bodyParser = require("body-parser");
 const express = require("express");
 
-const usersRoutes = require("./routes/users-routes");
+const sellersRoutes = require("./routes/sellers-routes");
 
 const app = express();
 
-app.use(usersRoutes);
+app.use('/buy',sellersRoutes);
 
 app.listen(5000);
